@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>niz*</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .asterisk {
+      font-size: 10rem;
+      color: #6a0dad; /* Dark purple */
+      margin-bottom: 2rem;
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.1); opacity: 0.8; }
+    }
+
+    .socials {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .socials a {
+      color: white;
+      font-size: 2rem;
+      transition: color 0.3s;
+    }
+
+    .socials a:hover {
+      color: #6a0dad;
+    }
+  </style>
+</head>
+<body>
+  <div class="asterisk">*</div>
+  <div class="socials">
+    <a href="https://www.instagram.com/nnpear/" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.tiktok.com/@nnpearr" target="_blank" aria-label="TikTok">
+      <i class="fab fa-tiktok"></i>
+    </a>
+    <a href="https://open.spotify.com/user/31xvywo5c5w2kcvhivok6d5qrmam?si=1943377c19dc4c97" target="_blank" aria-label="Spotify">
+      <i class="fab fa-spotify"></i>
+    </a>
+    <a href="https://discord.gg/xXnhsYW9" target="_blank" aria-label="Discord">
+      <i class="fab fa-discord"></i>
+    </a>
+  </div>
+</body>
+</html>
