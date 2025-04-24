@@ -4,69 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>niz*</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <!-- Font Awesome script -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  <style>
-    body {
-      margin: 0;
-      background-color: #000;
-      color: #fff;
-      font-family: 'Inter', sans-serif;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-    }
-
-    .asterisk {
-      font-size: 12rem; /* Increased size */
-      color: #6a0dad; /* Dark purple */
-      margin-bottom: 2rem;
-      animation: pulse 3s ease-in-out infinite;
-    }
-
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); opacity: 1; }
-      50% { transform: scale(1.1); opacity: 0.8; }
-    }
-
-    .socials {
-      display: flex;
-      gap: 2rem;
-      margin-top: 2rem;
-    }
-
-    .socials a {
-      color: #6a0dad; /* Purple color for the icons */
-      font-size: 3rem; /* Larger icons */
-      transition: color 0.3s;
-    }
-
-    .socials a:hover {
-      color: #9b4dca; /* Lighter purple on hover */
-    }
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="asterisk">*</div>
-  <div class="socials">
-    <a href="https://www.instagram.com/nnpear/" target="_blank" aria-label="Instagram">
-      <i class="fab fa-instagram"></i>
-    </a>
-    <a href="https://www.tiktok.com/@nnpearr" target="_blank" aria-label="TikTok">
-      <i class="fab fa-tiktok"></i>
-    </a>
-    <a href="https://open.spotify.com/user/31xvywo5c5w2kcvhivok6d5qrmam?si=1943377c19dc4c97" target="_blank" aria-label="Spotify">
-      <i class="fab fa-spotify"></i>
-    </a>
-    <a href="https://discord.gg/xXnhsYW9" target="_blank" aria-label="Discord">
-      <i class="fab fa-discord"></i>
-    </a>
+<body class="bg-black text-white flex items-center justify-center min-h-screen">
+  <div class="text-center">
+    <div class="text-7xl text-purple-500 font-bold mb-6">
+      *
+    </div>
+    <div class="space-y-3">
+      <a href="https://instagram.com/nnpear" class="text-purple-400 hover:text-purple-300 block">Instagram</a>
+      <a href="https://tiktok.com/@nnpearr" class="text-purple-400 hover:text-purple-300 block">TikTok</a>
+      <a href="https://open.spotify.com/user/your_spotify_id" class="text-purple-400 hover:text-purple-300 block">Spotify</a>
+      <a href="https://discord.gg/your_invite_code" class="text-purple-400 hover:text-purple-300 block">Discord</a>
+    </div>
   </div>
 </body>
 </html>
